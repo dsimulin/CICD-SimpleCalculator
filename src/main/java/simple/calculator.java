@@ -37,10 +37,10 @@ public class calculator extends HttpServlet {
                 if(calculate.equals("Addition")){
                      out.println((Integer.parseInt(var1) + Integer.parseInt(var2)));
                 }
-                else if(calculate.equals("Subtraction")){
+                else if(calculate.equals("Subtract")){
                      out.println(Integer.parseInt(var1) - Integer.parseInt(var2));
                 }
-                else if(calculate.equals("Multiplication")){
+                else if(calculate.equals("Multiplicate")){
                      out.println(Integer.parseInt(var1) * Integer.parseInt(var2));
                 }
                 else{
