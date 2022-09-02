@@ -34,7 +34,7 @@ public class calculator extends HttpServlet {
                 String calculate = request.getParameter("calculate"); 
                
                 
-                if(calculate.equals("Addition")){
+                if(calculate.equals("Add")){
                      out.println((Integer.parseInt(var1) + Integer.parseInt(var2)));
                 }
                 else if(calculate.equals("Subtract")){
