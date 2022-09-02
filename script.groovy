@@ -3,7 +3,7 @@ pipeline {
     stages {  
             stage ('Git-Clone') {  
                 steps{
-                    git credentialsId: '9a0a93d2-46ba-4f8f-8d02-c0d420e061ca', url: 'https://github.com/dsimulin/CICD-SimpleCalculator.git'
+                    git credentialsId: '9a0a93d2-46ba-4f8f-8d02-c0d420e061ca', url: 'https://github.com/dsimulin/CICD-SimpleCalculator.git', branch: 'main'
                     echo "Repository cloned!";
                 } 
             }
