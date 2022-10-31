@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <!--
-Simple calculator
--->
+Simple calculator-->
 <html>
-    <head>
-        
-        <title>Simple calculator</title>
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-   <body>
-       <h1>Simple calculator</h1>
-        <form action="calculator" method="get" name="frm">
-        
-                First variable:
-               <input name="var1" type="text" /><br> <br>
-
-                Second variable:
-               <input name="var2" type="text" /><br> <br>
-            
-               Operation type:
-                <select name="calculate">
-                    <option value="Add">Add</option>
-                    <option value="Subtract">Subtract</option>
-                    <option value="Multiplicate">Multiplicate</option>
-                    <option value="Divide">Divide</option>
-                </select>
-            
-                <input type="submit" value="Calculate!" />
-            
-        </form>
-    </body>
-    </html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Simple calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <h1 style="text-align: center;">Simple calculator</h1>
+    <h4 style="text-align: center;">Build No: BUILD_NUMBER  GitHub Commit: GIT_COMMIT  Author: GIT_AUTHOR_NAME</h4>
+    <div style="text-align: center;">
+      <form action="calculator" method="get" name="frm" style="background-color: white;">
+        1st variable:&nbsp; &nbsp; &nbsp;&nbsp; <input name="var1" type="text"><br>
+        <br>
+        2nd variable:&nbsp;&nbsp; &nbsp;&nbsp; <input name="var2" type="text"><br>
+        <br>
+        Arithmetic operation:
+        <select name="calculate">
+          <option value="Add">Add</option>
+          <option value="Subtract">Subtract</option>
+          <option value="Multiplicate">Multiplicate</option>
+          <option value="Divide">Divide</option>
+        </select>
+        <input value="Calculate!" type="submit"> </form>
+    </div>
+  </body>
+</html>
